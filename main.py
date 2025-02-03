@@ -65,13 +65,15 @@ def game_choices_setup():
 def generate_story_prompt():
         """Calls OpenAI to generate a semi-random story topic, setting, and time period."""
         try:
-            response = client.completions.create(model="gpt-4",
+            response = client.chat.completions.create(model="gpt-4",
             messages=[
                 {"role": "system", "content": "You are a creative writing assistant who generates random but compelling storytelling settings."},
                 {"role": "user", "content": "Generate a unique story concept with a topic/genre, an interesting setting, and a time period. Return it in JSON format like this: {'topic': '...', 'setting': '...', 'time_period': '...'}"}
             ])
             # Extract the AI-generated JSON string
-            raw_text = response["choices"][0]["message"]["content"]
+            raw_text = response.choices[0].message.content
+            raw_text.replace("'", '"')
+            print(raw_text)
 
             # Convert JSON-like text into a dictionary 
             story_data = json.loads(raw_text)
