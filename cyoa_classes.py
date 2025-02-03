@@ -1,5 +1,17 @@
 #This file will contain the classes for my CYOA game
 import random
+import os
+from openai import OpenAI
+from dotenv import load_dotenv
+
+
+# Load environment variables from .env
+load_dotenv()
+
+# Retrieve the API key
+api_key = os.getenv("OPENAI_API_KEY") 
+
+client = OpenAI(api_key=api_key)
 
 class Story:
 #Tracks the story topic, prompts, and responses
@@ -8,57 +20,100 @@ class Story:
         self.setting = setting
         self.time_period = time_period
         self.prompt_response_dict = {}
-        #this is for the developer role in the API call
+        #this defines the tone for the API-generated text
         self.narrator_type = random.choice(['cheery', 'somber', 'formal', 'mysterious', 'fantastical', 'scientific', 'comedic', 'satirical'])
-                
+
 
 class Person:
-    def __init__(self, gender, species, name, inventory = []):
+    """Base class for all characters in the game, including the player character"""
+    def __init__(self, gender, species, name, inventory=None):
         self.gender = gender
         self.species = species
         self.name = name
-        self.inventory = inventory
-        self.currency = 0
+        self.inventory = inventory if inventory is not None else []
+        self.currency = 0  #default currency amount
 class Player(Person):
-    #tracks player attributes
-    def __init__(self, gender, species, name, inventory = [], skills = [], choices = []):
+    #tracks player attributes, inventory, skills, and story choices
+    def __init__(self, gender, species, name, inventory=None, skills=None, choices=None):
         super().__init__(gender, species, name)
-        self.inventory = []
-        self.skills = []
-        self.choices = []
-#Breaking this up into separate spots in the classes means that I can store just the parts of the prompts that change
-#I can prompt every time with the character's name, gender etc. but I don't have to store that part in the prompt_response dictionary
-#this will also help prevent false positives when checking for similarity in responses (to avoid a character going in circles)
-
+        self.inventory = inventory if inventory is not None else []
+        self.skills = skills if skills is not None else []
+        self.choices = choices if choices is not None else []
 
 class NPC(Person):
-    def __init__(self, gender, species, name, inventory=[]):
-        super().__init__(gender, species, name, inventory=[])
-        self.player_reputation = 0
-        self.npc_reputation = 0
+    """Represents a non-playable character"""
+    def __init__(self, gender, species, name, inventory=None):
+        super().__init__(gender, species, name, inventory)
+        self.player_reputation = 0 #how the NPC feels about the player
+        self.npc_reputation = 0 #how the player feels about the NPC
 class Merchant(NPC):
-    def __init__(self, gender, species, name, inventory=[]):
-        super().__init__(gender, species, name, inventory=[])
-        self.currency = 100 # merchants get 100 currency on init, regular players have 0
-    
+    """A special type of NPC that buys and sells items for currency"""
+    def __init__(self, gender, species, name, inventory=None):
+        super().__init__(gender, species, name, inventory)
+        self.currency = 100 # merchants start with 100 currency
 
+    def list_items(self):
+        """Display items for sale"""
+        if self.inventory:
+            return f"Items for sale: {', '.join(self.inventory)}"
+        return "I have nothing for sale right now."
+
+    def sell(self, item, player):
+        """Sell an item to a player (move item from merchant to player)"""    
+        if item in self.inventory:
+            self.inventory.remove(item)
+            player.inventory.append(item)
+        return f"I don't have any {item} to sell."
 
 class Game:
     #keeps track of the state of the game and handles API calls
     def __init__(self):
         self.current_state = None
         self.chapters = 0
+        self.story = None
+        self.player = None
 
-    def start_story():
-        #first API call to set up story
-        #use OpenAI quickstart guide here
-        pass
-    
-    def show_choices():
-        #display the choices for the user's next actions on the screen
-        #then take those responses and send them on to the next step for generative text
-        pass
 
-    def update_state():
-        #add result of choices to current_state and increment chapters
-        pass
+    def start_story(self, topic, setting, time_period, player):
+        """Initialize the story and make the first API call."""
+        self.story = Story(topic, setting, time_period)
+        self.player = player
+        self.current_state = f"Welcome to {self.story.setting} in {self.story.time_period}."
+        self.chapters = 1
+        print(self.current_state)
+        self.generate_text("You find yourself in a strange place...") #real text for API call goes here later
+
+    def show_choices(self, choices):
+        """Display choices and allow the player to pick one."""
+        print("\nWhat do you want to do next?")
+        for i, choice in enumerate(choices, start=1):
+            print(f"{i}. {choice}")
+
+        while True:
+            try:
+                selection = int(input("Enter the number of your choice: ")) - 1
+                if 0 <= selection < len(choices):
+                    return choices[selection]
+                print("Invalid choice. Try again.")
+            except ValueError:
+                print("Please enter a number.")
+
+    def update_state(self, choice):
+        """Update the game state with the player's choice."""
+        self.chapters += 1
+        self.current_state += f" {choice}"  # Append choice to state
+        self.generate_text(f"After choosing to {choice.lower()}, you experience...")
+
+    def generate_text(self, prompt):
+        """Call OpenAI API to generate story text based on the current state."""
+        try:
+            response = client.chat.completions.create(model="gpt-4",
+            messages=[
+                {"role": "system", "content": f"You are a {self.story.narrator_type} storyteller."},
+                {"role": "user", "content": f"{self.current_state} {prompt}"}
+            ])
+            generated_text = response.choices[0].message.content
+            print("\n" + generated_text + "\n")
+            self.current_state += " " + generated_text
+        except Exception as e:
+            print("Error generating text:", e)
