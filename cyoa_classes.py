@@ -117,3 +117,14 @@ class Game:
             self.current_state += " " + generated_text
         except Exception as e:
             print("Error generating text:", e)
+
+    def next_chapter(self):
+        """Handle the next chapter based on player input"""
+        if self.chapters == 1:
+            choices = ["Investigate the strange noise.", "Explore the surroundings.", "Sit and wait."]
+        else:
+            #after chapter 1, choices should be dynamic
+            choices = [ f"Continue exploring an area.", f"Try to find an ally.", "Look for supplies."]
+    
+        choice = self.show_choices(choices)
+        self.update_state(choice)

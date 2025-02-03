@@ -10,6 +10,12 @@ client = OpenAI()
 def main():
     opening_screen()
     game, story, player = game_choices_setup()
+    #Start the story
+    game.start_story(story.topic, story.setting, story.time_period, player)
+    for chapter in range(5):
+        game.next_chapter()
+        time.sleep(2)
+    print("And that is the end of the story.")
 
 
 
@@ -72,7 +78,7 @@ def generate_story_prompt():
             ])
             # Extract the AI-generated JSON string
             raw_text = response.choices[0].message.content
-            raw_text.replace("'", '"')
+            raw_text = raw_text.replace("'", '"')
             print(raw_text)
 
             # Convert JSON-like text into a dictionary 
