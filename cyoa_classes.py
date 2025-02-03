@@ -12,19 +12,35 @@ class Story:
         self.narrator_type = random.choice(['cheery', 'somber', 'formal', 'mysterious', 'fantastical', 'scientific', 'comedic', 'satirical'])
                 
 
-class Player:
-    #tracks player attributes
-    def __init__(self, gender, species, name):
+class Person:
+    def __init__(self, gender, species, name, inventory = []):
         self.gender = gender
         self.species = species
         self.name = name
+        self.inventory = inventory
+        self.currency = 0
+class Player(Person):
+    #tracks player attributes
+    def __init__(self, gender, species, name, inventory = [], skills = [], choices = []):
+        super().__init__(gender, species, name)
         self.inventory = []
         self.skills = []
         self.choices = []
-
 #Breaking this up into separate spots in the classes means that I can store just the parts of the prompts that change
 #I can prompt every time with the character's name, gender etc. but I don't have to store that part in the prompt_response dictionary
 #this will also help prevent false positives when checking for similarity in responses (to avoid a character going in circles)
+
+
+class NPC(Person):
+    def __init__(self, gender, species, name, inventory=[]):
+        super().__init__(gender, species, name, inventory=[])
+        self.player_reputation = 0
+        self.npc_reputation = 0
+class Merchant(NPC):
+    def __init__(self, gender, species, name, inventory=[]):
+        super().__init__(gender, species, name, inventory=[])
+        self.currency = 100 # merchants get 100 currency on init, regular players have 0
+    
 
 
 class Game:
