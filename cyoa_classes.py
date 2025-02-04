@@ -3,6 +3,8 @@ import random
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import json
+import re
 
 
 # Load environment variables from .env
@@ -72,6 +74,7 @@ class Game:
         self.chapters = 0
         self.story = None
         self.player = None
+        self.story_state = {} #Tracks last choice and other game state data
 
 
     def start_story(self, topic, setting, time_period, player):
@@ -109,22 +112,74 @@ class Game:
         try:
             response = client.chat.completions.create(model="gpt-4",
             messages=[
-                {"role": "system", "content": f"You are a {self.story.narrator_type} storyteller."},
-                {"role": "user", "content": f"{self.current_state} {prompt}"}
+                {"role": "system", "content": f"You are a {self.story.narrator_type} storyteller. Generate a short story continuation and a set of 2-3 logical choices based on the given input. The main character is {self.player.name}, a {self.player.gender} {self.player.species}."},
+                {"role": "user", "content": f"{self.current_state} {prompt}.  Provide output in JSON format: {{'story': '...', 'choices': ['...', '...']}}"}
             ])
-            generated_text = response.choices[0].message.content
-            print("\n" + generated_text + "\n")
-            self.current_state += " " + generated_text
+            raw_text = response.choices[0].message.content
+            # This regex changes the single quotes in the content to double quotes for JSON but only around the keys and values
+            raw_text = re.sub(r"(\w+)(:)", r'"\1"\2', raw_text)  # Add quotes around keys
+            raw_text = re.sub(r'(":?)\s*\'(.*?)\'\s*', r'\1"\2"', raw_text)  # Convert single quotes to double quotes for values
+
+            try:
+                        story_data = json.loads(raw_text)
+                        generated_text = story_data["story"]
+                        choices = story_data["choices"]
+
+                        # Print story continuation
+                        print("\n" + generated_text + "\n")
+
+                        # Update game state
+                        self.current_state += " " + generated_text
+
+                        return generated_text, choices  # returning the values so the next_chapter() function can access them
+
+            except json.JSONDecodeError as e:
+                print("Error parsing JSON: ", e)
+                print("Response was: ", raw_text)
+                return "An unexpected silence falls over the world...", ["Wait", "Move forward"]
+
         except Exception as e:
             print("Error generating text:", e)
+            return "An eerie quiet settles in as the world pauses...", ["Try again", "Look around"]
 
     def next_chapter(self):
-        """Handle the next chapter based on player input"""
-        if self.chapters == 1:
-            choices = ["Investigate the strange noise.", "Explore the surroundings.", "Sit and wait."]
+        """Proceed to the next chapter dynamically based on AI-generated choices."""
+        if self.chapters >= 8:
+            print("You have reached the end of your journey.")
+            return
+        
+        print(f"\n--- Chapter {self.chapters + 1} ---\n")
+        
+        # Generate new story content and dynamic choices
+        story_text, choices = self.generate_text("What happens next?")
+        
+        if not story_text:
+            print("Error generating story content.")
+            return
+        
+        print(story_text)
+
+        # Ensure choices exist before continuing
+        if choices:
+            print("\nWhat will you do next?")
+            for i, choice in enumerate(choices, 1):
+                print(f"{i}. {choice}")
+
+            while True:
+                try:
+                    user_choice = int(input("\nEnter your choice: "))
+                    if 1 <= user_choice <= len(choices):
+                        break
+                    else:
+                        print("Invalid choice. Try again.")
+                except ValueError:
+                    print("Please enter a number corresponding to your choice.")
+
+            # Send the chosen option to the AI for the next chapter
+            self.story_state["last_choice"] = choices[user_choice - 1]
         else:
-            #after chapter 1, choices should be dynamic
-            choices = [ f"Continue exploring an area.", f"Try to find an ally.", "Look for supplies."]
-    
-        choice = self.show_choices(choices)
-        self.update_state(choice)
+            print("\nNo choices generated, moving forward automatically.")
+        
+        # Increment chapter count
+        self.chapters += 1
+

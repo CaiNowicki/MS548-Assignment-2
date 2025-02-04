@@ -4,6 +4,7 @@ import time
 from cyoa_classes import Game, Story, Player
 from openai import OpenAI
 import json
+import re
 
 client = OpenAI()
 
@@ -71,14 +72,18 @@ def game_choices_setup():
 def generate_story_prompt():
         """Calls OpenAI to generate a semi-random story topic, setting, and time period."""
         try:
-            response = client.chat.completions.create(model="gpt-4",
+            response = client.chat.completions.create(modpython library with dataset builel="gpt-4",
             messages=[
                 {"role": "system", "content": "You are a creative writing assistant who generates random but compelling storytelling settings."},
                 {"role": "user", "content": "Generate a unique story concept with a topic/genre, an interesting setting, and a time period. Return it in JSON format like this: {'topic': '...', 'setting': '...', 'time_period': '...'}"}
             ])
             # Extract the AI-generated JSON string
             raw_text = response.choices[0].message.content
-            raw_text = raw_text.replace("'", '"')
+            # Use regex to fix single quotes in the response for valid JSON parsing
+            # Ensure that only the keys and values are double quoted
+            raw_text = re.sub(r"(\w+)(:)", r'"\1"\2', raw_text)  # Add quotes around keys
+            raw_text = re.sub(r"(\')", r'"', raw_text)  # Replace internal single quotes with double quotes
+
             print(raw_text)
 
             # Convert JSON-like text into a dictionary 
