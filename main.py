@@ -2,11 +2,11 @@ import os
 import pyfiglet
 import time
 from cyoa_classes import Game, Story, Player
-from openai import OpenAI
 import json
 import re
+import requests
 
-client = OpenAI()
+
 
 def main():
     opening_screen()
@@ -70,38 +70,54 @@ def game_choices_setup():
 
 
 def generate_story_prompt():
-        """Calls OpenAI to generate a semi-random story topic, setting, and time period."""
-        try:
-            response = client.chat.completions.create(modpython library with dataset builel="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are a creative writing assistant who generates random but compelling storytelling settings."},
-                {"role": "user", "content": "Generate a unique story concept with a topic/genre, an interesting setting, and a time period. Return it in JSON format like this: {'topic': '...', 'setting': '...', 'time_period': '...'}"}
-            ])
-            # Extract the AI-generated JSON string
-            raw_text = response.choices[0].message.content
-            # Use regex to fix single quotes in the response for valid JSON parsing
-            # Ensure that only the keys and values are double quoted
-            raw_text = re.sub(r"(\w+)(:)", r'"\1"\2', raw_text)  # Add quotes around keys
-            raw_text = re.sub(r"(\')", r'"', raw_text)  # Replace internal single quotes with double quotes
+    """Calls Ollama to generate a semi-random story topic, setting, and time period."""
+    try:
+        response = requests.post(
+            "http://localhost:11434/api/generate",
+            json={"model": "llama3", "prompt": "Generate a unique story concept with a topic/genre, an interesting setting, and a time period. Return it in JSON format like this: {\"topic\": \"...\", \"setting\": \"...\", \"time_period\": \"...\"}. Return only the JSON object and no other text."},
+            stream=True,  # Enable streaming
+        )
 
-            print(raw_text)
+        if response.status_code != 200:
+            print("Error: Received non-200 response from API:", response.status_code)
+            return None
 
-            # Convert JSON-like text into a dictionary 
-            story_data = json.loads(raw_text)
+        raw_text = ""
+        for line in response.iter_lines():
+            if line:
+                try:
+                    json_chunk = json.loads(line.decode("utf-8"))  # Parse each line as JSON
+                    if "response" in json_chunk:
+                        raw_text += json_chunk["response"]  # Collect response text
+                except json.JSONDecodeError:
+                    continue  # Ignore malformed chunks
 
-            # Create a new Story instance using the generated data
-            return Story(
-                topic=story_data["topic"], 
-                setting=story_data["setting"], 
-                time_period=story_data["time_period"])
+        if not raw_text:
+            print("Error: Empty response from AI model")
+            return None
 
+        print("Raw AI Response:", raw_text)
 
-        except json.JSONDecodeError as e:
-            print("Error parsing JSON: ", e)
-            print("Response was ", raw_text)
-            
-        except Exception as e:
-            print("Error generating story:", e)
+        # Remove Markdown-style triple backticks if present
+        raw_text = raw_text.strip("`").strip()
+
+        # Try parsing the extracted JSON
+        story_data = json.loads(raw_text)
+
+        return Story(
+            topic=story_data["topic"],
+            setting=story_data["setting"],
+            time_period=story_data["time_period"]
+        )
+
+    except json.JSONDecodeError as e:
+        print("Error parsing JSON: ", e)
+        print("Response was ", raw_text)
+        return None
+
+    except Exception as e:
+        print("Error generating story:", e)
+        return None
 
 
 

@@ -113,7 +113,7 @@ class Game:
             response = client.chat.completions.create(model="gpt-4",
             messages=[
                 {"role": "system", "content": f"You are a {self.story.narrator_type} storyteller. Generate a short story continuation and a set of 2-3 logical choices based on the given input. The main character is {self.player.name}, a {self.player.gender} {self.player.species}."},
-                {"role": "user", "content": f"{self.current_state} {prompt}.  Provide output in JSON format: {{'story': '...', 'choices': ['...', '...']}}"}
+                {"role": "user", "content": f"{self.current_state} {prompt}.  Provide output in JSON format: {{\"story\": \"...\", \"choices\": [\"...\", \"...\"]}}. Provide only the JSON object and no other text content."}
             ])
             raw_text = response.choices[0].message.content
             # This regex changes the single quotes in the content to double quotes for JSON but only around the keys and values

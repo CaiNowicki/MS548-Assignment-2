@@ -1,0 +1,621 @@
+now it's doing this
+What is your name, player? 
+David
+Thank you, David. What is your gender? 
+Male
+And what species are you? (You'll get better results if you pick something that can move and speak!) 
+Human
+Do you want to pick the type of story and the setting, or do you want it to be a surprise? Enter 1 to choose or 2 to be surprised. 
+2
+Raw AI Response: {"model":"llama3","created_at":"2025-02-11T02:01:28.58491825Z","response":"Here","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.747831405Z","response":" is","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.808893654Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.865233618Z","response":" unique","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.927664054Z","response":" story","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.042056717Z","response":" concept","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.119946395Z","response":":\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.266012584Z","response":"``","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.328300963Z","response":"`\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.389422133Z","response":"{\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.448785331Z","response":"   ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.508746686Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.569550919Z","response":"topic","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.627894146Z","response":"\":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.688358459Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.748380598Z","response":"Cy","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.806198115Z","response":"ber","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.86349501Z","response":"punk","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.919155864Z","response":" Mystery","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.975682138Z","response":"\",\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.032998601Z","response":"   ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.089189123Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.144308677Z","response":"setting","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.210309909Z","response":"\":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.266893251Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.327697273Z","response":"A","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.38477705Z","response":" sprawling","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.441360471Z","response":" met","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.505912775Z","response":"ropolis","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.57698488Z","response":" on","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.634234887Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.691347596Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.750391723Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.811542128Z","response":" Jupiter","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.873294066Z","response":"'s","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.936114026Z","response":" icy","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.995818317Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.056695517Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.120712402Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.188199744Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.251646735Z","response":" where","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.310466149Z","response":" ancient","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.370940149Z","response":" alien","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.433892549Z","response":" ruins","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.491966037Z","response":" hide","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.549789775Z","response":" secrets","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.609252651Z","response":" beneath","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.667252651Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.725038688Z","response":" frozen","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.783927002Z","response":" surface","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.844334557Z","response":"\",\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.902809532Z","response":"   ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.961090331Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.021391556Z","response":"time","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.079119223Z","response":"_period","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.136879321Z","response":"\":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.196599551Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.255950256Z","response":"Near","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.318466283Z","response":"-F","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.383349209Z","response":"uture","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.451877031Z","response":" (","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.515594341Z","response":"205","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.577334667Z","response":"0","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.639487901Z","response":"s","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.702708425Z","response":")\"\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.763161416Z","response":"}\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.820370557Z","response":"``","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.877721965Z","response":"`\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.933765249Z","response":"In","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.990239765Z","response":" this","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.046513974Z","response":" concept","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.102751794Z","response":":\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.168929499Z","response":"The","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.252876147Z","response":" year","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.311283534Z","response":" is","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.367893936Z","response":" ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.426140501Z","response":"205","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.486315037Z","response":"3","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.563872419Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.620723805Z","response":" Humanity","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.677718812Z","response":" has","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.734388085Z","response":" colon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.793352371Z","response":"ized","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.854558611Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.916579275Z","response":" Jupiter","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.9765726Z","response":" system","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.038359713Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.099667905Z","response":" with","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.158830625Z","response":" cities","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.22036349Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.279707171Z","response":" research","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.339484048Z","response":" stations","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.395711769Z","response":" scattered","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.452416168Z","response":" across","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.509772686Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.566530035Z","response":" moons","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.624104042Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.68156693Z","response":" On","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.738527382Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.797962114Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.856911322Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.913990557Z","response":" team","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.971366311Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.030780154Z","response":" scientists","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.088514934Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.145632892Z","response":" treasure","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.206587548Z","response":" hunters","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.266505981Z","response":" has","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.345908439Z","response":" discovered","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.409398971Z","response":" ancient","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.472452811Z","response":" alien","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.534864542Z","response":" ruins","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.597371111Z","response":" hidden","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.658947107Z","response":" beneath","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.722725772Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.790940304Z","response":" ice","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.872413712Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.938047763Z","response":" As","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.005105856Z","response":" they","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.08395419Z","response":" excav","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.139645069Z","response":"ate","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.221735029Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.286131068Z","response":" study","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.349387228Z","response":" these","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.41519719Z","response":" relics","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.47814467Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.54057199Z","response":" strange","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.606684411Z","response":" occurrences","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.666818902Z","response":" start","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.732159109Z","response":" to","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.82095979Z","response":" plague","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.888538604Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.956347822Z","response":" city","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.022001139Z","response":":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.087275472Z","response":" equipment","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.156340635Z","response":" mal","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.298447514Z","response":"functions","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.375223503Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.441228462Z","response":" data","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.502482552Z","response":" disappears","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.561338003Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.623478823Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.682345104Z","response":" eerie","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.742808143Z","response":" whispers","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.802651956Z","response":" echo","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.862082851Z","response":" through","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.923622609Z","response":" com","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.982479212Z","response":"ms","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.043900716Z","response":" channels","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.104309974Z","response":".\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.162865921Z","response":"Enter","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.223097875Z","response":" our","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.283402776Z","response":" protagonist","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.345717243Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.406989176Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.473935177Z","response":" brilliant","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.539982767Z","response":" but","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.618668774Z","response":" re","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.677011319Z","response":"clusive","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.736071375Z","response":" cyber","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.798189191Z","response":"punk","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.85692125Z","response":" detective","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.916986279Z","response":" named","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.974803164Z","response":" K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.033293877Z","response":"ael","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.09164083Z","response":"in","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.149893816Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.20768387Z","response":"K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.268936376Z","response":"ae","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.326708756Z","response":"\"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.389736036Z","response":" V","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.450593708Z","response":"ex","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.508359326Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.567313713Z","response":" K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.625935784Z","response":"ae","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.686557532Z","response":" has","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.744253729Z","response":" lost","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.804054811Z","response":" loved","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.862182671Z","response":" ones","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.920477236Z","response":" in","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.981130864Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.039322975Z","response":" chaos","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.096729766Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.156638742Z","response":" colon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.214113942Z","response":"izing","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.272688103Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.331571466Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.39765332Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.456011794Z","response":" now","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.517217472Z","response":" seeks","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.574900334Z","response":" answers","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.635882902Z","response":" by","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.697279479Z","response":" solving","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.755463084Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.814226702Z","response":" mysteries","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.875467225Z","response":" that","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.93474411Z","response":" plague","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.994334104Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.054621462Z","response":"'s","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.117880117Z","response":" city","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.177477335Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.239157737Z","response":" With","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.29787634Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.36214111Z","response":" help","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.424059871Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.482766301Z","response":" her","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.546477218Z","response":" trust","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.605977684Z","response":"y","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.664271547Z","response":" AI","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.723615888Z","response":" companion","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.783055559Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.840573841Z","response":" Nova","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.899379057Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.95833682Z","response":" K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.017876289Z","response":"ae","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.080608783Z","response":" must","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.140090553Z","response":" navigate","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.200876089Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.263347381Z","response":" complex","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.325404433Z","response":" web","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.386444539Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.447288605Z","response":" conspiracy","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.506435705Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.56450794Z","response":" deception","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.623624432Z","response":" to","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.683464688Z","response":" uncover","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.74051643Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.800674414Z","response":" truth","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.859751332Z","response":" behind","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.920043569Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.985705782Z","response":" strange","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.044619462Z","response":" happen","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.105157352Z","response":"ings","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.16826903Z","response":" on","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.226518779Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.28603298Z","response":".\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.348930545Z","response":"The","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.414643243Z","response":" setting","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.477708503Z","response":" combines","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.539750546Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.598591319Z","response":" gritty","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.658440431Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.725201263Z","response":" high","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.814283204Z","response":"-tech","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.990264182Z","response":" atmosphere","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.153815876Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.253703722Z","response":" cyber","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.31936876Z","response":"punk","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.388003111Z","response":" with","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.453918962Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.519654703Z","response":" alien","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.587010105Z","response":" mystery","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.651146814Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.715316405Z","response":" frozen","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.777960201Z","response":" landscape","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.839618091Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.905557175Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.971951216Z","response":" distant","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.035415208Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.098547705Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.159953278Z","response":" The","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.229276958Z","response":" near","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.295167641Z","response":"-f","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.35688358Z","response":"uture","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.421363786Z","response":" time","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.482122341Z","response":" period","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.543704507Z","response":" adds","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.610366543Z","response":" an","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.671365341Z","response":" air","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.738893178Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.803289215Z","response":" realism","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.882752516Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.95315611Z","response":" as","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.01684778Z","response":" humanity","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.083423203Z","response":" is","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.163250489Z","response":" still","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.231989217Z","response":" grappling","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.300208817Z","response":" with","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.397071053Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.565658472Z","response":" challenges","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.635658426Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.705580022Z","response":" colon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.771517493Z","response":"izing","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.837331792Z","response":" other","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.901810004Z","response":" planets","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.964908727Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.027193818Z","response":" This","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.086195593Z","response":" concept","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.147058976Z","response":" offers","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.209222267Z","response":" plenty","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.271238611Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.333447989Z","response":" opportunities","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.397929507Z","response":" for","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.45788531Z","response":" world","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.519194101Z","response":"-building","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.580317964Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.64088599Z","response":" action","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.701570987Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.762753099Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.823035848Z","response":" suspense","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.885291463Z","response":"!","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.946171156Z","response":"","done":true,"done_reason":"stop","context":[128006,882,128007,271,32215,264,5016,3446,7434,449,264,8712,14,34713,11,459,7185,6376,11,323,264,892,4261,13,3494,433,304,4823,3645,1093,420,25,5473,16816,1232,364,69486,364,15680,1232,364,69486,364,1712,21485,1232,364,1131,8439,128009,128006,78191,128007,271,8586,374,264,5016,3446,7434,1473,14196,4077,517,262,330,16816,794,330,57815,655,76609,49105,761,262,330,15680,794,330,32,71992,2322,55422,389,279,18266,315,50789,596,67004,18266,11,39600,11,1405,14154,20167,46762,10477,24511,24923,279,20268,7479,761,262,330,1712,21485,794,330,53062,7424,3049,320,10866,15,82,13251,534,14196,19884,644,420,7434,1473,791,1060,374,220,10866,18,13,83695,706,15235,1534,279,50789,1887,11,449,9919,323,3495,17789,38067,4028,279,81260,13,1952,39600,11,264,2128,315,14248,323,32726,49073,706,11352,14154,20167,46762,8340,24923,279,10054,13,1666,814,45215,349,323,4007,1521,99516,11,15234,57115,1212,311,55537,279,3363,25,7241,8811,22124,11,828,61370,11,323,97383,89248,1722,1555,470,1026,12006,382,6403,1057,46684,11,264,20333,719,312,8500,21516,76609,45259,7086,735,6015,258,330,42,6043,1,650,327,13,735,6043,706,5675,10456,6305,304,279,28013,315,15235,4954,279,18266,323,1457,26737,11503,555,22581,279,57700,430,55537,39600,596,3363,13,3161,279,1520,315,1077,7095,88,15592,22489,11,35741,11,735,6043,2011,21546,279,6485,3566,315,26359,323,64575,311,45063,279,8206,4920,279,15234,3621,826,389,39600,382,791,6376,33511,279,86778,11,1579,42357,16975,315,21516,76609,449,279,20167,23347,323,20268,18921,315,264,29827,18266,13,578,3221,2269,3049,892,4261,11621,459,3805,315,69871,11,439,22706,374,2103,90834,449,279,11774,315,15235,4954,1023,33975,13,1115,7434,6209,11510,315,10708,369,1917,52499,11,1957,11,323,72930,0],"total_duration":22069415690,"load_duration":342413490,"prompt_eval_count":55,"prompt_eval_duration":2020000000,"eval_count":302,"eval_duration":19519000000}
+Error parsing JSON:  Extra data: line 2 column 1 (char 95)
+Response was  {"model":"llama3","created_at":"2025-02-11T02:01:28.58491825Z","response":"Here","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.747831405Z","response":" is","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.808893654Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.865233618Z","response":" unique","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:28.927664054Z","response":" story","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.042056717Z","response":" concept","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.119946395Z","response":":\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.266012584Z","response":"``","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.328300963Z","response":"`\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.389422133Z","response":"{\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.448785331Z","response":"   ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.508746686Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.569550919Z","response":"topic","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.627894146Z","response":"\":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.688358459Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.748380598Z","response":"Cy","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.806198115Z","response":"ber","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.86349501Z","response":"punk","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.919155864Z","response":" Mystery","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:29.975682138Z","response":"\",\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.032998601Z","response":"   ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.089189123Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.144308677Z","response":"setting","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.210309909Z","response":"\":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.266893251Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.327697273Z","response":"A","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.38477705Z","response":" sprawling","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.441360471Z","response":" met","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.505912775Z","response":"ropolis","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.57698488Z","response":" on","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.634234887Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.691347596Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.750391723Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.811542128Z","response":" Jupiter","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.873294066Z","response":"'s","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.936114026Z","response":" icy","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:30.995818317Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.056695517Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.120712402Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.188199744Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.251646735Z","response":" where","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.310466149Z","response":" ancient","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.370940149Z","response":" alien","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.433892549Z","response":" ruins","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.491966037Z","response":" hide","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.549789775Z","response":" secrets","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.609252651Z","response":" beneath","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.667252651Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.725038688Z","response":" frozen","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.783927002Z","response":" surface","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.844334557Z","response":"\",\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.902809532Z","response":"   ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:31.961090331Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.021391556Z","response":"time","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.079119223Z","response":"_period","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.136879321Z","response":"\":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.196599551Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.255950256Z","response":"Near","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.318466283Z","response":"-F","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.383349209Z","response":"uture","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.451877031Z","response":" (","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.515594341Z","response":"205","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.577334667Z","response":"0","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.639487901Z","response":"s","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.702708425Z","response":")\"\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.763161416Z","response":"}\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.820370557Z","response":"``","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.877721965Z","response":"`\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.933765249Z","response":"In","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:32.990239765Z","response":" this","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.046513974Z","response":" concept","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.102751794Z","response":":\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.168929499Z","response":"The","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.252876147Z","response":" year","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.311283534Z","response":" is","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.367893936Z","response":" ","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.426140501Z","response":"205","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.486315037Z","response":"3","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.563872419Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.620723805Z","response":" Humanity","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.677718812Z","response":" has","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.734388085Z","response":" colon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.793352371Z","response":"ized","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.854558611Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.916579275Z","response":" Jupiter","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:33.9765726Z","response":" system","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.038359713Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.099667905Z","response":" with","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.158830625Z","response":" cities","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.22036349Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.279707171Z","response":" research","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.339484048Z","response":" stations","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.395711769Z","response":" scattered","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.452416168Z","response":" across","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.509772686Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.566530035Z","response":" moons","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.624104042Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.68156693Z","response":" On","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.738527382Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.797962114Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.856911322Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.913990557Z","response":" team","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:34.971366311Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.030780154Z","response":" scientists","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.088514934Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.145632892Z","response":" treasure","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.206587548Z","response":" hunters","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.266505981Z","response":" has","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.345908439Z","response":" discovered","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.409398971Z","response":" ancient","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.472452811Z","response":" alien","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.534864542Z","response":" ruins","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.597371111Z","response":" hidden","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.658947107Z","response":" beneath","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.722725772Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.790940304Z","response":" ice","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.872413712Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:35.938047763Z","response":" As","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.005105856Z","response":" they","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.08395419Z","response":" excav","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.139645069Z","response":"ate","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.221735029Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.286131068Z","response":" study","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.349387228Z","response":" these","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.41519719Z","response":" relics","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.47814467Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.54057199Z","response":" strange","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.606684411Z","response":" occurrences","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.666818902Z","response":" start","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.732159109Z","response":" to","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.82095979Z","response":" plague","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.888538604Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:36.956347822Z","response":" city","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.022001139Z","response":":","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.087275472Z","response":" equipment","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.156340635Z","response":" mal","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.298447514Z","response":"functions","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.375223503Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.441228462Z","response":" data","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.502482552Z","response":" disappears","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.561338003Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.623478823Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.682345104Z","response":" eerie","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.742808143Z","response":" whispers","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.802651956Z","response":" echo","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.862082851Z","response":" through","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.923622609Z","response":" com","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:37.982479212Z","response":"ms","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.043900716Z","response":" channels","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.104309974Z","response":".\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.162865921Z","response":"Enter","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.223097875Z","response":" our","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.283402776Z","response":" protagonist","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.345717243Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.406989176Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.473935177Z","response":" brilliant","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.539982767Z","response":" but","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.618668774Z","response":" re","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.677011319Z","response":"clusive","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.736071375Z","response":" cyber","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.798189191Z","response":"punk","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.85692125Z","response":" detective","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.916986279Z","response":" named","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:38.974803164Z","response":" K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.033293877Z","response":"ael","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.09164083Z","response":"in","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.149893816Z","response":" \"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.20768387Z","response":"K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.268936376Z","response":"ae","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.326708756Z","response":"\"","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.389736036Z","response":" V","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.450593708Z","response":"ex","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.508359326Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.567313713Z","response":" K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.625935784Z","response":"ae","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.686557532Z","response":" has","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.744253729Z","response":" lost","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.804054811Z","response":" loved","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.862182671Z","response":" ones","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.920477236Z","response":" in","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:39.981130864Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.039322975Z","response":" chaos","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.096729766Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.156638742Z","response":" colon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.214113942Z","response":"izing","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.272688103Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.331571466Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.39765332Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.456011794Z","response":" now","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.517217472Z","response":" seeks","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.574900334Z","response":" answers","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.635882902Z","response":" by","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.697279479Z","response":" solving","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.755463084Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.814226702Z","response":" mysteries","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.875467225Z","response":" that","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.93474411Z","response":" plague","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:40.994334104Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.054621462Z","response":"'s","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.117880117Z","response":" city","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.177477335Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.239157737Z","response":" With","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.29787634Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.36214111Z","response":" help","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.424059871Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.482766301Z","response":" her","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.546477218Z","response":" trust","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.605977684Z","response":"y","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.664271547Z","response":" AI","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.723615888Z","response":" companion","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.783055559Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.840573841Z","response":" Nova","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.899379057Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:41.95833682Z","response":" K","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.017876289Z","response":"ae","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.080608783Z","response":" must","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.140090553Z","response":" navigate","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.200876089Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.263347381Z","response":" complex","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.325404433Z","response":" web","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.386444539Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.447288605Z","response":" conspiracy","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.506435705Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.56450794Z","response":" deception","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.623624432Z","response":" to","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.683464688Z","response":" uncover","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.74051643Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.800674414Z","response":" truth","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.859751332Z","response":" behind","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.920043569Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:42.985705782Z","response":" strange","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.044619462Z","response":" happen","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.105157352Z","response":"ings","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.16826903Z","response":" on","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.226518779Z","response":" Europa","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.28603298Z","response":".\n\n","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.348930545Z","response":"The","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.414643243Z","response":" setting","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.477708503Z","response":" combines","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.539750546Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.598591319Z","response":" gritty","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.658440431Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.725201263Z","response":" high","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.814283204Z","response":"-tech","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:43.990264182Z","response":" atmosphere","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.153815876Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.253703722Z","response":" cyber","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.31936876Z","response":"punk","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.388003111Z","response":" with","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.453918962Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.519654703Z","response":" alien","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.587010105Z","response":" mystery","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.651146814Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.715316405Z","response":" frozen","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.777960201Z","response":" landscape","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.839618091Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.905557175Z","response":" a","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:44.971951216Z","response":" distant","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.035415208Z","response":" moon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.098547705Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.159953278Z","response":" The","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.229276958Z","response":" near","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.295167641Z","response":"-f","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.35688358Z","response":"uture","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.421363786Z","response":" time","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.482122341Z","response":" period","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.543704507Z","response":" adds","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.610366543Z","response":" an","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.671365341Z","response":" air","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.738893178Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.803289215Z","response":" realism","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.882752516Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:45.95315611Z","response":" as","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.01684778Z","response":" humanity","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.083423203Z","response":" is","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.163250489Z","response":" still","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.231989217Z","response":" grappling","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.300208817Z","response":" with","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.397071053Z","response":" the","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.565658472Z","response":" challenges","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.635658426Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.705580022Z","response":" colon","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.771517493Z","response":"izing","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.837331792Z","response":" other","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.901810004Z","response":" planets","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:46.964908727Z","response":".","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.027193818Z","response":" This","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.086195593Z","response":" concept","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.147058976Z","response":" offers","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.209222267Z","response":" plenty","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.271238611Z","response":" of","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.333447989Z","response":" opportunities","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.397929507Z","response":" for","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.45788531Z","response":" world","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.519194101Z","response":"-building","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.580317964Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.64088599Z","response":" action","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.701570987Z","response":",","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.762753099Z","response":" and","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.823035848Z","response":" suspense","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.885291463Z","response":"!","done":false}
+{"model":"llama3","created_at":"2025-02-11T02:01:47.946171156Z","response":"","done":true,"done_reason":"stop","context":[128006,882,128007,271,32215,264,5016,3446,7434,449,264,8712,14,34713,11,459,7185,6376,11,323,264,892,4261,13,3494,433,304,4823,3645,1093,420,25,5473,16816,1232,364,69486,364,15680,1232,364,69486,364,1712,21485,1232,364,1131,8439,128009,128006,78191,128007,271,8586,374,264,5016,3446,7434,1473,14196,4077,517,262,330,16816,794,330,57815,655,76609,49105,761,262,330,15680,794,330,32,71992,2322,55422,389,279,18266,315,50789,596,67004,18266,11,39600,11,1405,14154,20167,46762,10477,24511,24923,279,20268,7479,761,262,330,1712,21485,794,330,53062,7424,3049,320,10866,15,82,13251,534,14196,19884,644,420,7434,1473,791,1060,374,220,10866,18,13,83695,706,15235,1534,279,50789,1887,11,449,9919,323,3495,17789,38067,4028,279,81260,13,1952,39600,11,264,2128,315,14248,323,32726,49073,706,11352,14154,20167,46762,8340,24923,279,10054,13,1666,814,45215,349,323,4007,1521,99516,11,15234,57115,1212,311,55537,279,3363,25,7241,8811,22124,11,828,61370,11,323,97383,89248,1722,1555,470,1026,12006,382,6403,1057,46684,11,264,20333,719,312,8500,21516,76609,45259,7086,735,6015,258,330,42,6043,1,650,327,13,735,6043,706,5675,10456,6305,304,279,28013,315,15235,4954,279,18266,323,1457,26737,11503,555,22581,279,57700,430,55537,39600,596,3363,13,3161,279,1520,315,1077,7095,88,15592,22489,11,35741,11,735,6043,2011,21546,279,6485,3566,315,26359,323,64575,311,45063,279,8206,4920,279,15234,3621,826,389,39600,382,791,6376,33511,279,86778,11,1579,42357,16975,315,21516,76609,449,279,20167,23347,323,20268,18921,315,264,29827,18266,13,578,3221,2269,3049,892,4261,11621,459,3805,315,69871,11,439,22706,374,2103,90834,449,279,11774,315,15235,4954,1023,33975,13,1115,7434,6209,11510,315,10708,369,1917,52499,11,1957,11,323,72930,0],"total_duration":22069415690,"load_duration":342413490,"prompt_eval_count":55,"prompt_eval_duration":2020000000,"eval_count":302,"eval_duration":19519000000}
+Traceback (most recent call last):
+  File "/home/cai/UAT_Work/MS548/Assignment-2/main.py", line 113, in <module>
+    main()
+  File "/home/cai/UAT_Work/MS548/Assignment-2/main.py", line 15, in main
+    game.start_story(story.topic, story.setting, story.time_period, player)
+AttributeError: 'NoneType' object has no attribute 'topic'
+(myenv) cai@cai-Alienware-Aurora-Ryzen-Edition:~/UAT_Work/MS548/Assignment-2$ 
