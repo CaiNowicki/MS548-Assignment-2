@@ -112,8 +112,8 @@ class Game:
         try:
             response = client.chat.completions.create(model="gpt-4",
             messages=[
-                {"role": "system", "content": f"You are a {self.story.narrator_type} storyteller. Generate a short story continuation and a set of 2-3 logical choices based on the given input. The main character is {self.player.name}, a {self.player.gender} {self.player.species}."},
-                {"role": "user", "content": f"{self.current_state} {prompt}.  Provide output in JSON format: {{\"story\": \"...\", \"choices\": [\"...\", \"...\"]}}. Provide only the JSON object and no other text content."}
+                {"role": "system", "content": f"You are a {self.story.narrator_type} storyteller. Generate a short story continuation and a set of 2-3 logical choices based on the given input. The main character is {self.player.name}, a {self.player.gender} {self.player.species}. Write the story in 2nd person (you) perspective. It should be possible for the main character to get hurt or even die (which ends the narrative) based on the choices."},
+                {"role": "user", "content": f"{self.current_state} {prompt}.  Provide output in JSON format: {{\"story\": \"...\", \"choices\": ['...', '...']}}. Provide only the JSON object and no other text content. Within the text of the story and choices objects, do not use any quotation marks."}
             ])
             raw_text = response.choices[0].message.content
             # This regex changes the single quotes in the content to double quotes for JSON but only around the keys and values
