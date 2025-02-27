@@ -1,11 +1,11 @@
 import os
 import pyfiglet
 import time
-from cyoa_classes import Game, Story, Player
+from cyoa_classes import Game, Story, Player, Tee
 import json
 import re
 import requests
-
+import sys
 
 
 def main():
@@ -13,9 +13,9 @@ def main():
     game, story, player = game_choices_setup()
     #Start the story
     game.start_story(story.topic, story.setting, story.time_period, player)
-    for chapter in range(5):
+    for chapter in range(8): #story ends after 8 chapters
         game.next_chapter()
-        time.sleep(2)
+        time.sleep(1)
     print("And that is the end of the story.")
 
 
@@ -23,17 +23,17 @@ def main():
 def opening_screen():
     """Display screen for start of game"""
     clear_terminal()
-    width = 80 # related to width of screen, probably 80-120
-    title = "Choose Your Own Adventure - Artificial Intelligence Edition"
+    width = 80 # related to width of screen
+    title = "Choose Your Own Adventure - AI Edition"
     ascii_title = pyfiglet.figlet_format(title) #creates ascii art of my title
     print('*' * width)
     print(ascii_title)
     print('*' * width)
-    time.sleep(5)
+    time.sleep(3)
     print('Welcome to Choose Your Own Adventure - Artificial Intelligence Edition!')
     print('In this game, you will make the choices that determine what happens next.')
     print('Your choices, plus some prompts from the storyline, will generate a unique storyline each time you play.')
-    time.sleep(5)
+    time.sleep(3)
     clear_terminal()
 
 
@@ -48,7 +48,7 @@ def game_choices_setup():
     player_name = input()
     print(f'Thank you, {player_name}. What is your gender? ')
     player_gender = input()
-    print("And what species are you? (You'll get better results if you pick something that can move and speak!) ")
+    print("And what species are you? (Choose something mobile and communicative.) ")
     player_species = input()
     player = Player(player_gender, player_species, player_name)
     print("Do you want to pick the type of story and the setting, or do you want it to be a surprise? Enter 1 to choose or 2 to be surprised. ")
@@ -75,9 +75,8 @@ def generate_story_prompt():
         response = requests.post(
             "http://localhost:11434/api/generate",
             json={"model": "llama3", "prompt": "Generate a unique story concept with a topic/genre, an interesting setting, and a time period. Return it in JSON format like this: {\"topic\": \"...\", \"setting\": \"...\", \"time_period\": \"...\"}. Return only the JSON object and no other text."},
-            stream=True,  # Enable streaming
         )
-
+        
         if response.status_code != 200:
             print("Error: Received non-200 response from API:", response.status_code)
             return None
@@ -94,9 +93,7 @@ def generate_story_prompt():
 
         if not raw_text:
             print("Error: Empty response from AI model")
-            return None
-
-        print("Raw AI Response:", raw_text)
+            return Story("Default Topic", "Default Setting", "Default Time Period")
 
         # Remove Markdown-style triple backticks if present
         raw_text = raw_text.strip("`").strip()
@@ -105,15 +102,14 @@ def generate_story_prompt():
         story_data = json.loads(raw_text)
 
         return Story(
-            topic=story_data["topic"],
-            setting=story_data["setting"],
-            time_period=story_data["time_period"]
+            topic=story_data.get("topic", "Default Topic"), #get topic from JSON object. if not found, use Default
+            setting=story_data.get("setting", "Default Setting")
+            time_period=story_data.get("time_period", "Default Time Period")
         )
 
     except json.JSONDecodeError as e:
         print("Error parsing JSON: ", e)
-        print("Response was ", raw_text)
-        return None
+        return Story("Default Topic", "Default Setting", "Default Time Period")
 
     except Exception as e:
         print("Error generating story:", e)
@@ -122,4 +118,5 @@ def generate_story_prompt():
 
 
 if __name__ == "__main__":
+    sys.stdout = Tee("output.log") # capture file output
     main()

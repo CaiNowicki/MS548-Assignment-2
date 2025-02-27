@@ -1,19 +1,26 @@
 #This file will contain the classes for my CYOA game
 import random
 import os
-from openai import OpenAI
-from dotenv import load_dotenv
 import json
 import re
+import sys
+import requests
 
+class Tee:
+    '''This is a custom class that will output print() statements to the terminal
+    while simultaneously logging them to a file.'''
+    def __init__(self, filename):
+        self.file = open(filename, "w+")
+        self.stdout = sys.stdout #save the original stdout
 
-# Load environment variables from .env
-load_dotenv()
+    def write(self, message):
+        self.file.write(message) #write the message to the file
+        self.stdout.write(message) #display message on console
+    
+    def flush(self):
+        self.file.flush()
+        self.stdout.flush()
 
-# Retrieve the API key
-api_key = os.getenv("OPENAI_API_KEY") 
-
-client = OpenAI(api_key=api_key)
 
 class Story:
 #Tracks the story topic, prompts, and responses
@@ -21,7 +28,7 @@ class Story:
         self.topic = topic
         self.setting = setting
         self.time_period = time_period
-        self.prompt_response_dict = {}
+        self.prompt_response_dict = {}  # tracks choices and responses
         #this defines the tone for the API-generated text
         self.narrator_type = random.choice(['cheery', 'somber', 'formal', 'mysterious', 'fantastical', 'scientific', 'comedic', 'satirical'])
 
@@ -65,6 +72,7 @@ class Merchant(NPC):
         if item in self.inventory:
             self.inventory.remove(item)
             player.inventory.append(item)
+            player.currency -= 10 # using a fixed sale price for simplicity
         return f"I don't have any {item} to sell."
 
 class Game:
@@ -84,10 +92,10 @@ class Game:
         self.current_state = f"Welcome to {self.story.setting} in {self.story.time_period}."
         self.chapters = 1
         print(self.current_state)
-        self.generate_text("You find yourself in a strange place...") #real text for API call goes here later
+        self.generate_text("You find yourself in a strange place...") 
 
     def show_choices(self, choices):
-        """Display choices and allow the player to pick one."""
+        """Display AI generated choices and allow the player to pick one."""
         print("\nWhat do you want to do next?")
         for i, choice in enumerate(choices, start=1):
             print(f"{i}. {choice}")
@@ -104,39 +112,35 @@ class Game:
     def update_state(self, choice):
         """Update the game state with the player's choice."""
         self.chapters += 1
-        self.current_state += f" {choice}"  # Append choice to state
+        self.story_state["last_choice"] = choice  # store player's previous choice
         self.generate_text(f"After choosing to {choice.lower()}, you experience...")
 
     def generate_text(self, prompt):
-        """Call OpenAI API to generate story text based on the current state."""
+        """Call Ollama API to generate story text based on the current state."""
         try:
-            response = client.chat.completions.create(model="gpt-4",
-            messages=[
-                {"role": "system", "content": f"You are a {self.story.narrator_type} storyteller. Generate a short story continuation and a set of 2-3 logical choices based on the given input. The main character is {self.player.name}, a {self.player.gender} {self.player.species}. Write the story in 2nd person (you) perspective. It should be possible for the main character to get hurt or even die (which ends the narrative) based on the choices."},
-                {"role": "user", "content": f"{self.current_state} {prompt}.  Provide output in JSON format: {{\"story\": \"...\", \"choices\": ['...', '...']}}. Provide only the JSON object and no other text content. Within the text of the story and choices objects, do not use any quotation marks."}
-            ])
-            raw_text = response.choices[0].message.content
-            # This regex changes the single quotes in the content to double quotes for JSON but only around the keys and values
-            raw_text = re.sub(r"(\w+)(:)", r'"\1"\2', raw_text)  # Add quotes around keys
-            raw_text = re.sub(r'(":?)\s*\'(.*?)\'\s*', r'\1"\2"', raw_text)  # Convert single quotes to double quotes for values
+            response = requests.post(
+                "http://localhost:11434/api/generate",
+                json={"model": "llama3", "prompt": f"You are a {self.story.narrator_type} storyteller. Generate a short story continuation based on: {self.current_state} {prompt}. Provide output in JSON format: {{\"story\": \"...\", \"choices\": ['...', '...']}}."},
+            )
+            raw_text = response.text.strip("`").strip()  #remove markdown backticks
 
-            try:
-                        story_data = json.loads(raw_text)
-                        generated_text = story_data["story"]
-                        choices = story_data["choices"]
+            
+            story_data = json.loads(raw_text)
+            generated_text = story_data.get("story", "Default Story")
+            choices = story_data.get("choices", ["Wait", "Move Forward"]) #get the choices from the JSON object. If it fails, default to those choices.
 
-                        # Print story continuation
-                        print("\n" + generated_text + "\n")
+            # Print story continuation
+            print("\n" + generated_text + "\n")
 
-                        # Update game state
-                        self.current_state += " " + generated_text
+            # Update game state
+            self.current_state += " " + generated_text
 
-                        return generated_text, choices  # returning the values so the next_chapter() function can access them
+            return generated_text, choices  # returning the values so the next_chapter() function can access them
 
-            except json.JSONDecodeError as e:
-                print("Error parsing JSON: ", e)
-                print("Response was: ", raw_text)
-                return "An unexpected silence falls over the world...", ["Wait", "Move forward"]
+        except json.JSONDecodeError as e:
+            print("Error parsing JSON: ", e)
+            print("Response was: ", raw_text)
+            return "An unexpected silence falls over the world...", ["Wait", "Move forward"]
 
         except Exception as e:
             print("Error generating text:", e)
@@ -153,11 +157,11 @@ class Game:
         # Generate new story content and dynamic choices
         story_text, choices = self.generate_text("What happens next?")
         
-        if not story_text:
-            print("Error generating story content.")
-            return
-        
         print(story_text)
+        if "death" in story_text.lower():
+            print("Your story has reached a tragic end. Game over.")
+        if self.chapters >= 8:
+            print("You realize this adventure is taking up too much of your time and decide to return home. Game over. ")
 
         # Ensure choices exist before continuing
         if choices:
@@ -179,7 +183,6 @@ class Game:
             self.story_state["last_choice"] = choices[user_choice - 1]
         else:
             print("\nNo choices generated, moving forward automatically.")
-        
+            self.update_state("Move forward")
         # Increment chapter count
         self.chapters += 1
-
